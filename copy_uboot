@@ -1,0 +1,2 @@
+sudo dd if=SPL of=/dev/sdf bs=1K seek=1; sync
+sudo dd if=u-boot.img of=/dev/sdf bs=1K seek=69; sync
